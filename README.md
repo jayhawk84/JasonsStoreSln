@@ -12,3 +12,6 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
     dotnet sln JasonsStoreSln add JasonsStoreSln/OutdoorProducts.Tests 
     dotnet add JasonsStoreSln/OutdoorProducts.Tests reference JasonsStoreSln/OutdoorProducts 
 ```
+
+### Figure 7-3 
+![Figure 7-3](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.3.PNG)
