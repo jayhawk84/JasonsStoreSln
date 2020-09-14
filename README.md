@@ -15,3 +15,9 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
 
 ### Figure 7-3 
 ![Figure 7-3](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.3.PNG)
+
+### Figure 7-4 
+![Figure 7-4](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.4.PNG)
+
+### Last Screenshot 
+![Last Screenshot](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFigLast.PNG)
