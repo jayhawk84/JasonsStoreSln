@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using OutdoorProducts.Controllers;
 using OutdoorProducts.Models;
+using OutdoorProducts.Models.ViewModels;
 using Xunit;
 namespace OutdoorProducts.Tests
 {
@@ -23,9 +24,13 @@ namespace OutdoorProducts.Tests
           Name = "P2"
         }
       }).AsQueryable<Product>());
-            HomeController controller = new HomeController(mock.Object); // Act 
-            IEnumerable<Product> result = (controller.Index() as ViewResult).ViewData.Model as IEnumerable<Product>; // Assert
-            Product[] prodArray = result.ToArray();
+            HomeController controller = new HomeController(mock.Object);
+
+            // Act 
+            ProductsListViewModel result = controller.Index().ViewData.Model as ProductsListViewModel; 
+            
+            // Assert
+            Product[] prodArray = result.Products.ToArray();
             Assert.True(prodArray.Length == 2);
             Assert.Equal("P1", prodArray[0].Name);
             Assert.Equal("P2", prodArray[1].Name);
@@ -60,10 +65,12 @@ namespace OutdoorProducts.Tests
         }).AsQueryable<Product>());
             HomeController controller = new HomeController(mock.Object);
             controller.PageSize = 3;
+
             // Act 
-            IEnumerable<Product> result = (controller.Index(2) as ViewResult).ViewData.Model as IEnumerable<Product>;
+            ProductsListViewModel result = controller.Index(2).ViewData.Model as ProductsListViewModel;
+            
             // Assert 
-            Product[] prodArray = result.ToArray();
+            Product[] prodArray = result.Products.ToArray();
             Assert.True(prodArray.Length == 2);
             Assert.Equal("P4", prodArray[0].Name);
             Assert.Equal("P5", prodArray[1].Name);
