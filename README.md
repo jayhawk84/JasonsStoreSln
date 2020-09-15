@@ -12,12 +12,12 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
     dotnet sln JasonsStoreSln add JasonsStoreSln/OutdoorProducts.Tests 
     dotnet add JasonsStoreSln/OutdoorProducts.Tests reference JasonsStoreSln/OutdoorProducts 
 ```
-
+## Chapter 7 Screenshots
 ### Figure 7-3 
 ![Figure 7-3](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.3.PNG)
 
 ### Figure 7-4 
 ![Figure 7-4](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.4.PNG)
 
-### Last Screenshot 
+### Final Chapter 7 Screenshot 
 ![Last Screenshot](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSports7Final.PNG)
