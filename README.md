@@ -20,4 +20,4 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
 ![Figure 7-4](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig7.4.PNG)
 
 ### Last Screenshot 
-![Last Screenshot](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFigLast.PNG)
+![Last Screenshot](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSports7Final.PNG)
