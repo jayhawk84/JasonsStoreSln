@@ -21,3 +21,8 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
 
 ### Final Chapter 7 Screenshot 
 ![Last Screenshot](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSports7Final.PNG)
+
+## Chapter 8 Screenshots
+### Figure 8-5
+Highlighting a selected category dynamically
+![Figure 8-5](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig8.5.PNG)
