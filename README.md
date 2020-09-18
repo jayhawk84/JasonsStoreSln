@@ -26,3 +26,7 @@ This is a student exercise, but the source code comes from author Adam Freeman, 
 ### Figure 8-5
 Highlighting a selected category dynamically
 ![Figure 8-5](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig8.5.PNG)
+
+### Figure 8-10
+Shopping cart basic implementation
+![Figure 8-10](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig8.10.PNG)
