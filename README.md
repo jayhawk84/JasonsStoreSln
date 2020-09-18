@@ -30,3 +30,10 @@ Highlighting a selected category dynamically
 ### Figure 8-10
 Shopping cart basic implementation
 ![Figure 8-10](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig8.10.PNG)
+
+### Figure 8-11
+Displaying the shopping cart with item
+![Figure 8-10](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig8.11.PNG)
+
+### Unit Tests
+![Figure Tests](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsTests.PNG)
