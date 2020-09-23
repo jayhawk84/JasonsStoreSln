@@ -11,9 +11,10 @@ namespace OutdoorProducts.Pages
     {
         private IStoreRepository repository;
 
-        public CartModel(IStoreRepository repo)
+        public CartModel(IStoreRepository repo, Cart cartService)
         {
             repository = repo;
+            Cart = cartService;
         }
 
         public Cart Cart { get; set; }
@@ -21,18 +22,16 @@ namespace OutdoorProducts.Pages
 
         public void OnGet(string returnUrl)
         {
-            ReturnUrl = returnUrl ?? "/";
-            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+            ReturnUrl = returnUrl??"/";
         }
-
         public IActionResult OnPost(long productId, string returnUrl)
         {
-            Product product = repository.Products
-                .FirstOrDefault(p => p.ProductID == productId);
-            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+            Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
             Cart.AddItem(product, 1);
-            HttpContext.Session.SetJson("cart", Cart);
-            return RedirectToPage(new { returnUrl = returnUrl });
+            return RedirectToPage(new
+            {
+                returnUrl = returnUrl
+            });
         }
     }
 
