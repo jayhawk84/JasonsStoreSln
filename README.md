@@ -37,3 +37,19 @@ Displaying the shopping cart with item
 
 ### Unit Tests
 ![Figure Tests](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsTests.PNG)
+
+## Chapter 9 Screenshots
+### Figure 9-4
+Shipping Details
+![Figure 9-4](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig9.4.PNG)
+
+### Figure 9-5
+Validation for Checkout Form
+![Figure 9-5](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig9.5.PNG)
+
+### Figure 9-6
+Order Summary
+![Figure 9-6](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig9.6.PNG)
+
+### Unit Tests
+![Figure Tests](https://raw.githubusercontent.com/jayhawk84/JasonsStoreSln/master/JasonStoreMedia/JasonSportsFig9.Tests.PNG)
