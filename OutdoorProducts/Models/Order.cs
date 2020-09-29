@@ -68,5 +68,8 @@ namespace OutdoorProducts.Models
             get;
             set;
         }
+
+        [BindNever]
+        public bool Shipped { get; set; }
     }
 }
